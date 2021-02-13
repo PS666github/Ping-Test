@@ -6,6 +6,7 @@ echo "█▄█▄█ █▀▀ █▀▀▄ ░░█░░ █▀▀ ▀▀█
 echo "░▀░▀░ ▀▀▀ ▀▀▀░ ░░▀░░ ▀▀▀ ▀▀▀ ░░▀░░ "
 echo "                                   "
 echo "          (webtest installing...)  "
-apt-get install python3 
-apt-get install python
+chmod +x webtest.py
+sudo apt-get install python3 
+sudo apt-get install python
 echo "finish !"
