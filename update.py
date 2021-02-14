@@ -31,26 +31,5 @@ The installing finish i open directory (testweb) !
 time.sleep(4)
 os.system("echo The packge upate in: ")
 os.system("pwd")
-t = str(input("Do you want to installing package? [y/n] "))
-if(str(t) == 'y'):
-  os.system("bash install.sh")
-  w = str(input("Do you want run packge? [y/n] "))
-  if(str(w) == 'y':
-     os.system("python3 webtest.py")
-  else:
-      os.system("clear")
-      print("good bye")
-      exit(3)
-if(str(t) == 'n'):
-     os.system("clear")
-     time.sleep(2)
-     print("good bye")
-     exit(1)
-else:
-    os.system("clear")
-    time.sleep(1)
-    print("Error 532 !")
-    exit(1)
-if(str(
-exit(1)
+exit(2)
 # testweb
