@@ -28,6 +28,8 @@ time.sleep(1)
 print("""
 The installing finish i open directory (testweb) !
 """)
-os.system("ls")
+time.sleep(4)
+os.system("echo The packge upate in: ")
+os.system("pwd")
 exit(1)
 # testweb
