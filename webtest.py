@@ -14,7 +14,7 @@ print("""
               (webtest)""")
 print("1.Testweb")
 print("2.Exit")
-a = str(input("Test ~# "))
+a = str(input("\nTest ~# "))
 if(str(a) == '2'):
   os.system("clear")
   print("good bye")
