@@ -2,6 +2,9 @@
 # This code write by ms.nope
 import os
 import time
+class color:
+    test = '\033[33m'
+    white = '\033[0m'
 os.system("clear")
 print("""
 
@@ -21,7 +24,9 @@ if(str(a) == '1'):
   os.system("figlet webtest")
   ip = str(input("Enter ip: "))
   time.sleep(3)
+  print(color.test)
   os.system("ping -w 2 " + ip)
+  color.white)
   trygain = str(input("Do you want try again? [y/n] "))
   if(str(trygain) == 'y'):
     os.system("python3 webtest.py")
