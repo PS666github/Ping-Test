@@ -26,7 +26,7 @@ if(str(a) == '1'):
   time.sleep(3)
   print(color.test)
   os.system("ping -w 2 " + ip)
-  color.white)
+  print(color.white)
   trygain = str(input("Do you want try again? [y/n] "))
   if(str(trygain) == 'y'):
     os.system("python3 webtest.py")
