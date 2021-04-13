@@ -1,4 +1,4 @@
-# testweb
+# ping test
 This code for ping test
 ### installing
 ```
