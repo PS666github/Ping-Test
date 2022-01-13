@@ -15,4 +15,6 @@ echo ""
 echo "finish !"
 echo ""
 echo "usage:
-            ./webtest.py"
+            ./webtest.py
+"
+exit
